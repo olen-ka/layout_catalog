@@ -1,9 +1,11 @@
 .page {
   &__main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 0 48px;
     justify-content: center;
-    flex-wrap: wrap;
     max-width: 1200px;
     margin: 50px auto;
+    transform: translateX(-24px);
   }
 }
